@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curiosidades</title>
+    <style>
+        body{
+            margin: 0;
+        }
+        .container {
+            display: grid;
+        }
+
+        header {
+            grid-column-start: 1;
+            grid-column-end: 12;
+            grid-row-start: 1;
+            grid-row-end: 1;
+        }
+
+        .menu {
+            grid-column-start: 6;
+            grid-column-end: 12;
+            grid-row-start: 1;
+            grid-row-end: 1;
+            justify-content: center;
+            gap: 20px;
+        }
+
+
+        .imagem_leo {
+            grid-column-start: 1;
+            grid-column-end: 3;
+
+        }
+
+        .principal {
+            grid-column-start: 4;
+            grid-column-end: 12;
+            padding-left: 15px;
+            padding-right: 15px;
+            text-align: justify;
+
+        }
+
+        header {
+            background-color: #CF1B5A;
+            
+        }
+
+        ul {
+            list-style-type: none;
+
+            color: #CF1B5A;
+        }
+
+        a,
+        a:link {
+            text-decoration: none;
+            padding: 8px 16px;
+            border: solid #CF1B5A 1px;
+        }
+
+        li {
+            float: left;
+        }
+
+        a:hover {
+            background-color: #CF1B5A;
+            color: white;
+        }
+
+        footer {
+            grid-column-start: 1;
+            grid-column-end: 12;
+            grid-row-start: 1;
+            grid-row-end: 6;
+            background-color: #CF1B5A;
+            color: white;
+            text-align: center;
+        }
+
+        /* media query para dispositivos móveis */
+        @media only screen and (max-width: 767px) {
+            .wrapper {
+               grid-column-start: 1;
+                grid-column-end: 1;
+
+            }
+
+            .imagem_leo {
+                grid-column-start: 1;
+ grid-column-end: 1;
+                
+            }
+
+            .principal {
+                grid-column-start: 1;
+ grid-column-end: 1;
+                
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header class="container">
+        <h1 style="color: white; text-align: center;">Biografia Leonardo da Vinci</h1>
+        <br>
+
+    </header>
+    <nav class="container menu">
+        <ul>
+            <li><a href="index.html">Biografia</a></li>
+            <li><a href="obras.html">Obras</a></li>
+            <li><a href="curiosidades.html">Curiosidades</a></li>
+        </ul>
+    </nav>
+    <div class="container wrapper">
+        <aside class="imagem_leo">
+            <img src="leonardo-da-vinci.png">
+            <div class="infos">
+                <p><strong>Ocupação</strong> Pintor italiano</p>
+                <p>
+                    <strong>Data do Nascimento</strong>
+                    15/04/1452
+                </p>
+                <p><strong>Data da Morte</strong> 02/05/1519 (aos 67 anos)</p>
+            </div>
+
+        </aside>
+        <section class="principal">
+            <h1>
+                Leonardo da Vinci - Curiosidades
+            </h1>
+            <p>Pouco se sabe da infância de Leonardo. Provavelmente passou os seus primeiros quatro ou cinco anos no vilarejo de Anchiano, e depois do casamento de sua mãe com um lavrador de nome Accattabriga di Piero del Vaca, arranjado por Piero pouco após o nascimento do filho,[24] mudou-se para a casa da família de seu pai então casado com uma jovem de dezesseis anos chamada Albiera di Giovanni Amadori,[13] com a qual Leonardo tinha uma boa relação, a quem chamava de madrinha, em companhia de seu avô, Antonio, e tio, Francesco, na paróquia de Santa Croce em Vinci, em um ambiente bucólico aconchegante, o que é significativo na personalidade de um Leonardo ligado a natureza.</p>
+            <p>Albiera morreu muito cedo sem filhos. A morte do seu avô Antonio a quem muito estimava deu-se logo após em 1468,[3] e Leonardo apesar de ilegítimo continuará filho único no segundo casamento do seu pai Piero, com Francesca di Giuliano Lanfredini; testemunharia a mais dois casamentos deste, até que em 1476, quando viviam em Florença, Piero teve o tão esperado filho legítimo.[25] Em sua vida adulta, Leonardo só se recordaria de dois incidentes de sua infância, um deles, tinha como presságio:<br>
+
+            Parece-me que sempre fui destinado a me interessar muito profundamente por falcões, pois lembro-me como uma de minhas primeiras recordações que, quando estava no berço, um falcão desceu sobre mim e abriu-me a boca com a cauda, e me bateu muitas vezes entre os lábios com ela.</p>
+            <p>O segundo ocorreu enquanto ele brincava nas montanhas da região, e depois de vagar por alguma distância entre as rochas projetadas acima, cheguei à boca de uma imensa caverna, diante da qual me quedei por algum tempo estupefato, pois ignorava a sua existência (…) e após ficar ali algum tempo, de repente despertaram dentro de mim duas emoções — medo e desejo — medo da escura e ameaçadora caverna, desejo de ver se haveria alguma coisa maravilhosa lá dentro.<br>
+            A infância e a juventude de Leonardo foram tema de diversas conjunturas históricas.[26] Giorgio Vasari, biógrafo do século XVI que escreveu sobre os pintores do Renascimento Italiano,[27] conta como um camponês local teria pedido a Ser Piero que mandasse seu filho pintar um quadro numa placa redonda ou escudo. Leonardo respondeu com uma pintura de serpentes soltando fogo — ou mesmo um dragão — tão terrível e mesmo assim tão surpreendente que Ser Piero decidiu vender a um negociante de arte florentino que, por sua vez, a vendeu ao Duque de Milão. Enquanto isso, com parte do lucro da venda, Ser Piero comprou uma placa, decorada com um coração penetrado por uma flecha, que ele deu ao camponês.[28] Leonardo tornou-se um jovem instruído e sempre referido pelos estudiosos como dono de uma bela aparência de fartos cabelos louros e olhos claros, além de uma personalidade afável com o trato das pessoas.</p>
+        </section>
+    </div>
+    <footer class="container">
+        <h1>Desenvolvido para fins educacionais</h1>
+    </footer>
+    </div>
+</body>
+
+</html>
